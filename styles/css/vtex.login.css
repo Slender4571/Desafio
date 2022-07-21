@@ -1,0 +1,142 @@
+/* Button login close */
+.container :global(.vtex-button) {
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+  border-color: #fbb03b #fea600 #fea600;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.container :global(.vtex-button):hover {
+  background: linear-gradient(180deg, #ffc047 0, #fbb03b);
+  transition: all 0.15s ease-in;
+}
+
+.label {
+  color: #ffffff !important;
+  text-shadow: rgba(0, 0, 0, 0.05) 0 1px 0;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: none;
+  display: block;
+  padding: 0 16px;
+  text-align: center !important;
+}
+
+.container :global(.vtex-button__label.ph6),
+.buttonLink :global(.vtex-button__label.ph4) {
+  padding: 0 !important;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--burguer-menu)
+  .buttonLink
+  :global(.vtex-button__label) {
+  justify-content: left;
+  margin-left: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .label,
+  .buttonLink {
+    width: 93vw;
+  }
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--burguer-menu) .label {
+  color: #f8991d;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--burguer-menu)
+  .container
+  :global(.relative) {
+  width: 100%;
+}
+
+/* Login Box */
+.box {
+  right: -3.5rem !important;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+  padding: 0.25rem;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+  border-color: #fbb03b #fea600 #fea600;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+  color: #ffffff;
+  font-size: 1.025rem;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.accessCodeOptionBtn :global(.vtex-button):hover,
+.emailPasswordOptionBtn :global(.vtex-button):hover {
+  background: linear-gradient(180deg, #ffc047 0, #fbb03b);
+  transition: all 0.15s ease-in;
+}
+
+.contentForm {
+  width: 22rem;
+}
+
+.formTitle,
+.inputContainer :global(.vtex-input-prefix__group),
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+  color: #073db3;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+  border: 1px solid #073db3;
+}
+
+.backButton :global(.vtex-button),
+.eyeIcon--invisible,
+.forgotPasswordLink,
+.forgotPasswordLink:hover {
+  color: #073db3;
+}
+
+.forgotPasswordLink:hover {
+  opacity: 0.5;
+  transition: color 0.15s ease-in;
+}
+
+.dontHaveAccount {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 0.25rem;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+  border-color: #fbb03b #fea600 #fea600;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.dontHaveAccount:hover {
+  background: linear-gradient(180deg, #ffc047 0, #fbb03b);
+  transition: all 0.15s ease-in;
+}
+
+.sendButton :global(.vtex-button) {
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+  border-color: #fbb03b #fea600 #fea600;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  width: 8rem;
+}
+
+.sendButton :global(.vtex-button):hover {
+  background: linear-gradient(180deg, #ffc047 0, #fbb03b);
+  transition: all 0.15s ease-in;
+}
+
+@media (max-width: 499px) {
+  .accessCodeOptionBtn {
+    width: 320px;
+  }
+}

@@ -1,8 +1,9 @@
 {
   "vendor": "speedware",
-  "name": "issoehumteste",
+  "name": "tteste",
   "version": "0.1.1",
   "builders": {
+    "assets": "0.x",
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x"
@@ -45,7 +46,12 @@
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.store-sitemap": "2.x"
+    "vtex.store-sitemap": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.product-price": "1.x",
+    "vtex.store-form": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

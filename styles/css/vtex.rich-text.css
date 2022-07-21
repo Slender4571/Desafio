@@ -1,0 +1,59 @@
+/* Rich Text Search Result */
+.container--header-result {
+  background-color: #151f32;
+  color: #ffffff;
+  padding: 2rem;
+}
+
+/* Rich text not-found page */
+.heading--title-not-found {
+  margin-bottom: 0;
+  color: #151f32;
+}
+
+.container--title-not-found {
+  margin-bottom: 2rem;
+}
+
+/* Rich Text Search Result Mobile */
+.heading--header-result-mobile {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.paragraph--header-result-mobile {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media (max-width: 499px) {
+  .container--title-not-found {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+/* Rich Text Footer */
+.paragraph--text-copyright {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.link--text-copyright {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link--text-copyright:hover {
+  color: #fea600;
+  transition: all 0.15s ease-in;
+}
+
+/* Slider Products Home */
+.wrapper--title-product {
+  font-size: 2rem;
+  color: #151f32;
+  font-weight: bold;
+  margin: 0 auto;
+}
