@@ -24,8 +24,8 @@
   },
   "info-card#1": {
     "props": {
-      "imageUrl": "assets/banner/AtmosPhere.png",
-      "mobileImageUrl": "assets/banner/AtmosPhere-mobile.png",
+      "imageUrl": "assets/banner/AtmosPhere.jpg",
+      "mobileImageUrl": "assets/banner/AtmosPhere-mobile.jpg",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "isFullModeStyle": true,
@@ -34,8 +34,8 @@
   },
   "info-card#2": {
     "props": {
-      "imageUrl": "assets/banner/BitSized.png",
-      "mobileImageUrl": "assets/banner/BitSized-mobile.png",
+      "imageUrl": "assets/banner/BitSized.jpg",
+      "mobileImageUrl": "assets/banner/BitSized-mobile.jpg",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "isFullModeStyle": true,
@@ -44,7 +44,7 @@
   },
   "info-card#3": {
     "props": {
-      "imageUrl": "assets/banner/ConTroll.png",
+      "imageUrl": "assets/banner/ConTroll.jpg",
       "mobileImageUrl": "assets/banner/ConTroll-mobile.png",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
@@ -65,7 +65,7 @@
   "info-card#5": {
     "props": {
       "imageUrl": "assets/banner/SpeedWare.png",
-      "mobileImageUrl": "assets/banner/SpeedWare-mobile.png",
+      "mobileImageUrl": "assets/banner/SpeedWare-mobile.jpg",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "isFullModeStyle": true,
@@ -75,7 +75,7 @@
   "info-card#6": {
     "props": {
       "imageUrl": "assets/banner/TravelLog.png",
-      "mobileImageUrl": "assets/banner/TravelLog-mobile.png",
+      "mobileImageUrl": "assets/banner/TravelLog-mobile.jpg",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "isFullModeStyle": true,

@@ -1,5 +1,6 @@
 .container {
-  padding: 0 0 1rem;
+  /* padding: 0 0 1rem; */
+  width: 100%;
 }
 
 .logoContainer {
@@ -8,6 +9,10 @@
 
 .searchBarContainer {
   padding: 0;
+}
+
+.imageElement {
+  margin: 3rem auto;
 }
 
 @media (max-width: 768px) {
@@ -48,7 +53,7 @@
 }
 
 .searchBarIcon {
-  color: #ffffff;
+  color: #fcfcfc;
 }
 
 .autoCompleteOuterContainer--header {
@@ -82,9 +87,16 @@
   justify-content: center;
 }
 
+.discountInsideContainer {
+  left: 0;
+  width: 3rem;
+  border-color: #fbb03b #fea600 #fea600;
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+}
+
 .productImage {
   margin: 0 auto;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .productBrand {
@@ -103,6 +115,9 @@
   color: #151f32;
   font-size: 1rem;
   font-weight: 400;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
 }
 
 .content {
@@ -128,4 +143,12 @@
 .showMoreButton:hover {
   background: linear-gradient(180deg, #ffc047 0, #fbb03b);
   transition: all 0.15s ease-in;
+}
+
+.shippingContainer,
+.shippingContainer :global(.vtex-address-form__postalCode) {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }

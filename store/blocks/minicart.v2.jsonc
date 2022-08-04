@@ -79,23 +79,23 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "rowGap": 5
+      "rowGap": 1
     },
     "children": [
-      "icon-cart#minicart-empty-state",
-      "rich-text#minicart-default-empty-state"
+      "rich-text#minicart-default-empty-state",
+      "icon-cart#minicart-empty-state"
     ]
   },
   "icon-cart#minicart-empty-state": {
     "props": {
-      "size": 80,
-      "viewBox": "-10 0 64 54",
+      "size": 120,
+      "viewBox": "-24 0 64 54",
       "blockClass": "minicart-empty-state"
     }
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Seu carrinho está vazio."
+      "text": "Seu carrinho\nestá vazio!"
     }
   }
 }

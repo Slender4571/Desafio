@@ -30,7 +30,7 @@
     },
     "children": [
       "flex-layout.col#left-desktop",
-      "flex-layout.col#right1"
+      "flex-layout.col#right"
     ]
   },
   "flex-layout.col#left-desktop": {
@@ -38,10 +38,11 @@
       "width": "20%"
     },
     "children": [
+      "search-title.v2",
       "filter-navigator.v3"
     ]
   },
-  "flex-layout.col#right1": {
+  "flex-layout.col#right": {
     "props": {
       "blockClass": "col-result-content"
     },
@@ -80,22 +81,23 @@
   //search not-found
   "search-not-found-layout": {
     "children": [
-      "image#not-found",
       "rich-text#title-not-found",
-      "search-result-layout.customQuery#search-not-found"
+      "search-result-layout.customQuery#search-not-found",
+      "image#not-found"
     ]
   },
   "image#not-found": {
     "props": {
-      "src": "/assets/not-found/404error.svg",
-      "maxHeight": 335
+      "src": "https://raw.githubusercontent.com/Slender4571/Desafio/370deae80b2eadc3cab479d07ca0f56fb63bab6e/assets/not-found/404error.svg",
+      "maxHeight": 335,
+      "maxWidth": 335
     }
   },
   "rich-text#title-not-found": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "## Nenhum resultado encontrado. \nVerifique se você digitou corretamente ou tente palavras-chave diferentes",
+      "text": "## Nenhum resultado encontrado!!! \nVerifique se você digitou corretamente ou tente palavras-chave diferentes!",
       "blockClass": "title-not-found"
     }
   },
@@ -130,6 +132,9 @@
     ]
   },
   //common
+  "search-title.v2": {
+
+  },
   "rich-text#header-result": {
     "props": {
       "textAlignment": "CENTER",
@@ -180,9 +185,13 @@
     },
     "children": [
       "product-summary-image#search-result",
+      "product-summary-space",
       "product-summary-name#search-result",
+      "product-summary-space",
       "product-summary-description#search-result",
+      "product-summary-space",
       "product-summary-price",
+      "product-summary-space",
       "add-to-cart-button#search-result"
     ]
   },
