@@ -95,17 +95,19 @@
     "props": {
       "horizontalAlign": "left",
       "verticalAlign": "middle",
-      "width": "30%"
+      "width": "auto"
     },
     "children": [
       "product-rating-inline"
+
     ]
   },
   "flex-layout.col#infosColTwoTop": {
     "props": {
       "horizontalAlign": "right",
       "verticalAlign": "middle",
-      "width": "70%"
+      "width": "100%",
+      "marginLeft": 4
     },
     "children": [
       "product-identifier.product"
@@ -139,7 +141,7 @@
   },
   "flex-layout.row#productRowTwo": {
     "props": {
-      "paddingTop": 10,
+      "paddingTop": 6,
       "horizontalAlign": "center"
     },
     "children": [

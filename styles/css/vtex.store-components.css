@@ -82,9 +82,10 @@
 
 /* PDP */
 .productImagesContainer {
+  max-width: 25rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100% ;
+  margin-right: 7rem;
 }
 
 .discountInsideContainer {
@@ -95,10 +96,14 @@
 }
 
 .productImage {
-  margin: 0 auto;
-  /* width: 300px; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
-
+.productImage .productImageTag{
+  max-width: 90%;
+  width: 100%;
+}
 .productBrand {
   color: #007dbc;
   font-size: 1.5rem;
@@ -150,3 +155,38 @@
   background: linear-gradient(180deg, #ffc047 0, #fbb03b);
   transition: all 0.15s ease-in;
 }
+
+
+/* TEXT----------------------------------------*/
+
+.sellingPrice{
+  color: red;
+}
+
+.productDescriptionTitle{
+  color:red;
+
+}
+.productBrand{
+  color: red;
+}
+.shareLabel{
+  color: red;
+}
+/* Pode ser em json??? aki noa funfa */
+.quantitySelectorTitle{
+  color: red;
+}
+.sellingPriceValue{
+  color: red;
+}
+
+.installments{
+  color: red;
+}
+
+.input__label {
+  color: #ff4c4c;
+}
+
+/*----------------------------------------------*/
