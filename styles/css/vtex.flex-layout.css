@@ -52,10 +52,10 @@
 
 /* PDP */
 .flexCol--productOne {
-  max-width: 800px;
+  max-width: 1200px;
   padding: 1rem 2rem;
   background-color: #ffffff;
-  border-top: 5px solid #151f32;
+  border-top: 0.5rem solid #151f32;
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
   -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
@@ -63,7 +63,7 @@
 }
 
 .flexCol--productColOne {
-  max-width: 800px;
+  max-width: 400px;
 }
 
 .flexCol--productColTwo {

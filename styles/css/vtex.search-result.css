@@ -10,6 +10,12 @@
   display: none;
 }
 
+.galleryTitle--layout {
+  margin-top: -0.01rem;
+  color: #151f32;
+  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
+}
+
 /* Order-by */
 .orderByDropdown {
   width: 18rem;
@@ -76,9 +82,9 @@
 
 /* Filter-nav */
 
-.filters--layout {
+/* .filters--layout {
   margin-top: 5rem;
-}
+} */
 
 .filterMessage,
 .filterTitleSpan,
@@ -148,7 +154,7 @@
 /* Gallery Products */
 
 .gallery {
-  margin-top: 4rem;
+  margin-top: 5rem;
   margin-right: auto;
   /* display: flex;
   justify-content: space-around;
@@ -209,8 +215,19 @@
   /* color: red */
 }
 
-.notFound--layout {
+.notFound--layout .galleryTitle--layout{
   padding-top: 2.5rem;
+
+  width: 100%;
+  text-align: center;
+  color: #fea600;
+  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
+
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3rem;
+  margin: 0;
+
   /* background-color: #151f3299; */
   /* display: flex;
   align-items: center;
