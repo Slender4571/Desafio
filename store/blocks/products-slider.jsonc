@@ -34,7 +34,7 @@
       "blockClass": "slider-products",
       "showNavigationArrows": "desktopOnly",
       "arrowSize": 30,
-      "fullWidth": false,
+      "fullWidth": true,
       "infinite": true,
       "autoplay": {
         "timeout": 5000,

@@ -2,10 +2,13 @@
   "product-summary.shelf#home": {
     "children": [
       "product-summary-image#shelf",
+      "product-summary-space",
       "product-summary-name",
       "product-summary-space",
       "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
+      "product-selling-price#summary",
+      "product-price-savings#summary",
+      "product-summary-space",
       "add-to-cart-button#summary-slider-home"
     ],
     "props": {
@@ -29,24 +32,6 @@
       "blockClass": "summary-slider-home"
     }
   },
-  "flex-layout.row#selling-price-savings": {
-    "props": {
-      "colGap": 3,
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true,
-      "marginBottom": 4,
-      "blockClass": "price"
-    },
-    "children": [
-      "product-selling-price#summary",
-      "product-price-savings#summary"
-    ]
-  },
-  "product-installments#summary": {
-    "props": {
-      "blockClass": "summary-slider-home"
-    }
-  },
   "product-selling-price#summary": {
     "props": {
       "blockClass": "summary-slider-home"
@@ -58,7 +43,6 @@
       "blockClass": "summary-slider-home"
     }
   },
-
   "add-to-cart-button#summary-slider-home": {
     "props": {
       "text": "Adicionar ao carrinho"

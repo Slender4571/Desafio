@@ -1,3 +1,12 @@
+.listPrice,
+.savings,
+.savings--summary,
+.installments,
+.sellingPriceValue {
+  color: #151f32;
+  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
+}
+
 .listPrice {
   color: #727273;
   font-size: 1rem;
@@ -11,8 +20,14 @@
   font-weight: 700;
 }
 
+.sellingPrice,
+.sellingPrice--summary-slider-home {
+  /* background-color: greenyellow; */
+  width: 100%;
+}
+
 .sellingPriceValue {
-  color: #151f32;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 900;
+  color: #151f32;
 }

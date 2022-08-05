@@ -102,6 +102,7 @@
     "children": ["search-bar"]
   },
   "search-bar": {
+    // "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "blockClass": "header",
       "placeholder": "Pesquisar"

@@ -21,40 +21,61 @@
   align-items: center;
 }
 
-/* Flex layout search result */
-.flexRow--container-desktop {
-  margin: 20px 93px;
-  max-width: 1350px;
-}
-
-.flexRow--container-mobile {
-  margin: 30px;
-}
-
 /* Flex Layout Footer */
-.flexRowContent--footer-copyright {
-  background: #151f32;
+/* .flexRow, */
+.flexRow--price,
+/* .flexRowContent, */
+.flexRowContent--price {
+  padding: 0;
   width: 100%;
+  margin: 0;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* background: #151f32; */
+}
+
+.flexRowContent--footer-copyright {
+  /* background-color: red; */
+  /* width: 100vw; */
+}
+
+/* PDP */
+.flexRowContent--container-desktop {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.flexRowContent--container-desktop:first-child {
+  padding-left: 4rem;
 }
 
 /* PDP */
 .flexCol--productOne {
-  box-sizing: border-box;
-  max-width: 400px;
+  max-width: 1200px;
   padding: 1rem 2rem;
   background-color: #ffffff;
-  border-top: 5px solid #151f32;
+  border-top: 0.5rem solid #151f32;
   box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
   -webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
   -moz-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.29);
-text-align: center;
+  box-sizing: border-box;
+}
+
+.flexCol--productColOne {
+  max-width: 400px;
+}
+
+.flexCol--productColTwo {
+  max-width: 800px;
+  text-align: center;
 }
 
 .flexColChild--productOne {
   width: 100%;
 }
 
-.flexCol--productOne :global(.vtex-button) {
+.flexCol--productColTwo :global(.vtex-button) {
   background: linear-gradient(180deg, #ffc047 0, #fea600);
   border-color: #fbb03b #fea600 #fea600;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
@@ -62,16 +83,7 @@ text-align: center;
   width: 12rem;
 }
 
-.flexCol--productOne :global(.vtex-button):hover {
+.flexCol--productColTwo :global(.vtex-button):hover {
   background: linear-gradient(180deg, #ffc047 0, #fbb03b);
   transition: all 0.15s ease-in;
-}
-
-/* Home */
-.flexRowContent--price {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 10px;
 }

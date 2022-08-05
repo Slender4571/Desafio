@@ -1,0 +1,20 @@
+/* .summaryContainer{
+  background-color: red;
+}
+
+.summaryTotalReviews{
+  color: red;
+} */
+
+:global(.vtex-button) {
+  background: linear-gradient(180deg, #ffc047 0, #fea600);
+  border-color: #fbb03b #fea600 #fea600;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  width: 12rem;
+}
+
+:global(.vtex-button):hover {
+  background: linear-gradient(180deg, #ffc047 0, #fbb03b);
+  transition: all 0.15s ease-in;
+}

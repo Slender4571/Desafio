@@ -3,6 +3,7 @@
     "blocks": [
       "slider-layout#demo-images",
       "flex-layout.row#title-product",
+      "__fold__",
       "flex-layout.row#products"
     ]
   }
