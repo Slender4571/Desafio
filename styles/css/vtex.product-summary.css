@@ -5,13 +5,14 @@
 .imageNormal,
 .image {
   max-height: 8rem;
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.image{
-  background-color: red;
+
+.image {
+  /* background-color: red; */
 }
 
 .nameContainer {
@@ -24,6 +25,9 @@
 .productBrand,
 .description,
 .currencyContainer,
+.price_installmentContainer,
+.price_listPriceLabel,
+.price_sellingPriceLabel,
 .element :global(.vtex-button) {
   text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
 }
@@ -42,6 +46,11 @@
 .description,
 .currencyContainer {
   color: #151f32;
+}
+
+.price_sellingPriceLabel .price_installmentContainer,
+.price_listPriceLabel {
+  color: #151f32cc;
 }
 
 .description {
@@ -114,7 +123,7 @@
   transition: all 0.15s ease-in;
 }
 
-.containerNormal{
+.containerNormal {
   margin: 0 0 3rem 3rem;
   width: 16rem;
   border-radius: 0 0.5rem;

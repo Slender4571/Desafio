@@ -7,12 +7,13 @@
 
 /* Rich text not-found page */
 .wrapper--title-not-found {
-  width: 30rem;
+  width: 48rem;
 }
 
 .heading--title-not-found,
 .paragraph--title-not-found {
   color: #fea600;
+  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
 }
 
 .heading--title-not-found {
@@ -20,9 +21,11 @@
   font-size: 3.2rem;
   line-height: 3rem;
   margin: 0;
+  color: #151f32;
 }
 
 .paragraph--title-not-found {
+  width: 30rem;
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2rem;

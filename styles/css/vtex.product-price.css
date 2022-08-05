@@ -1,7 +1,9 @@
 .listPrice,
 .savings,
 .savings--summary,
+.installments,
 .sellingPriceValue {
+  color: #151f32;
   text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
 }
 
