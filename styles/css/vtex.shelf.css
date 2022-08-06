@@ -12,5 +12,7 @@
 }
 
 .title{
-  color:black;
+  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
+  color: #151f32;
+  font-weight: 700;
 }

@@ -5,8 +5,7 @@
       "flex-layout.row#productPDP",
       "shelf.relatedProducts#relations",
       "shelf.relatedProducts#suggestions",
-      "product-reviews",
-      "product-rating-summary"
+      "product-reviews"
     ]
   },
   "breadcrumb": {
