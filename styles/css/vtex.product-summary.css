@@ -5,20 +5,14 @@
 .imageNormal,
 .image {
   max-height: 8rem;
-  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.image {
-  /* background-color: red; */
-}
-
 .nameContainer {
-  line-height: 2rem;
-  padding: 0;
-  /* background-color: blue; */
+  line-height: 1.4;
+  padding: .8rem 0 0;
 }
 
 .productNameContainer,
@@ -29,7 +23,7 @@
 .price_listPriceLabel,
 .price_sellingPriceLabel,
 .element :global(.vtex-button) {
-  text-shadow: 0.15rem 0.15rem 0.15rem #151f3233;
+  text-shadow: 0.15rem 0.15rem 0.15rem #ecebebc2;
 }
 
 .productNameContainer,
@@ -39,33 +33,24 @@
   font-weight: 700;
   word-wrap: break-word;
   text-align: center;
-  line-height: 1.6rem;
+  line-height: 1.4;
   width: 100%;
 }
 
-.description,
-.currencyContainer {
-  color: #151f32;
-}
-
-.price_sellingPriceLabel .price_installmentContainer,
-.price_listPriceLabel {
-  color: #151f32cc;
-}
-
 .description {
-  line-height: 1.5rem;
-  font-size: 0.875rem;
+  color: red;
+  font-size: 1.1rem;
+  font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* color: #151f32;
-  font-weight: 400;
-  font-size: 0.75rem;
-  height: 3rem;
-  word-wrap: break-word; */
-  /* width: 80%; */
-  /* background-color: pink; */
+}
+
+.price_sellingPriceLabel,
+.price_installmentContainer {
+  color: #0a742a;
+  font-weight: 600;
+  margin-bottom: .2rem;
 }
 
 .priceContainer,
@@ -77,18 +62,14 @@
 .price_sellingPriceContainer,
 .price_sellingPrice {
   padding: 0;
-  /* background-color: greenyellow; */
   width: 100%;
 }
 
-.sellingPrice {
-  /* background-color: blueviolet; */
-}
-
-.currencyContainer {
-  /* background-color: aquamarine; */
+.price_sellingPriceContainer .currencyContainer {
   font-size: 1.2rem;
-  font-weight: 900;
+  line-height: 1.4;
+  font-weight: 800;
+  color: #151f32;
 }
 
 .spacer {
@@ -113,7 +94,6 @@
   font-style: italic;
   font-weight: 700;
   border-radius: 0 0.5rem;
-  /* border: #151f32 solid 0.125rem; */
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(0, 0, 0, 0.04);
 }
 
@@ -127,10 +107,9 @@
   margin: 0 0 3rem 3rem;
   width: 16rem;
   border-radius: 0 0.5rem;
-  padding: 0.5rem;
-  background-color: #cdcdcd66;
+  padding: 0.7rem;
+  background-color: #f8f8f8c2;
   box-shadow: 0.125rem 0.125rem 0.25rem 0 #151f3233;
   border: #151f3233 solid 0.001rem;
-  max-height: 20rem;
-  /* background-color: red; */
+  max-height: 22rem;
 }

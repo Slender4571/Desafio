@@ -35,10 +35,10 @@
   /* background: #151f32; */
 }
 
-.flexRowContent--footer-copyright {
-  /* background-color: red; */
-  /* width: 100vw; */
-}
+/* .flexRowContent--footer-copyright {
+  background-color: red;
+  width: 100vw;
+} */
 
 /* PDP */
 .flexRowContent--container-desktop {
@@ -81,6 +81,7 @@
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
   color: #ffffff;
   width: 12rem;
+  cursor: pointer;
 }
 
 .flexCol--productColTwo :global(.vtex-button):hover {
